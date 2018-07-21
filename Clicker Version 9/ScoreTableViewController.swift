@@ -17,6 +17,8 @@ class ScoreTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let loadedScores = UserDefaults.standard.array(forKey: SAVE_KEY)
+        scores = loadedScores as? [Float] ?? [Float]()
     }
 
     // MARK: - Table view data source
@@ -41,7 +43,7 @@ class ScoreTableViewController: UITableViewController {
     }
     
     @IBAction func unwindToScoreTable(segue: UIStoryboardSegue) {
-        if segue.identifier == UNWIND_IDENTIFIER {
+        if segue.identifier == ClickerViewController.UNWIND_IDENTIFIER {
             let source = segue.source as! ClickerViewController
             scores.append(source.time)
             UserDefaults.standard.set(scores, forKey:SAVE_KEY)

@@ -13,7 +13,7 @@ class ClickerViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     var counter = 0
     var time: Float = 0.0
-    static let UNWIND_INDENTIFIER = "unwindFromClicker"
+    static let UNWIND_IDENTIFIER = "unwindFromClicker"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ClickerViewController: UIViewController {
         label.text = String(counter)
         if counter == 30 {
             print("You're done! You took \(time) seconds")
-            performSegue(withIdentifier: UNWIND_INDENTIFIER, sender: self)
+            performSegue(withIdentifier: ClickerViewController.UNWIND_IDENTIFIER, sender: self)
         }
     }
     
