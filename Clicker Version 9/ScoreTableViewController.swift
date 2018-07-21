@@ -11,6 +11,9 @@ import UIKit
 class ScoreTableViewController: UITableViewController {
     
     var scores: [Float] = []
+    let SCORE_CELL_IDENTIFIER = "scoreCell"
+    
+    let SAVE_KEY = "scores"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,10 +41,10 @@ class ScoreTableViewController: UITableViewController {
     }
     
     @IBAction func unwindToScoreTable(segue: UIStoryboardSegue) {
-        if segue.identifier == "unwindFromClicker" {
+        if segue.identifier == UNWIND_IDENTIFIER {
             let source = segue.source as! ClickerViewController
             scores.append(source.time)
-            UserDefaults.standard.set(scores, forKey:"scores")
+            UserDefaults.standard.set(scores, forKey:SAVE_KEY)
             tableView.reloadData()
         }
     }
