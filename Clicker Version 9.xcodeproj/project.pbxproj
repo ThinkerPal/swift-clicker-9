@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A0C6CE532102C152005F1817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6CE522102C152005F1817 /* AppDelegate.swift */; };
-		A0C6CE552102C152005F1817 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6CE542102C152005F1817 /* ClickerViewController.swift */; };
-		A0C6CE582102C152005F1817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C6CE562102C152005F1817 /* Main.storyboard */; };
-		A0C6CE5A2102C154005F1817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C6CE592102C154005F1817 /* Assets.xcassets */; };
-		A0C6CE5D2102C154005F1817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C6CE5B2102C154005F1817 /* LaunchScreen.storyboard */; };
-		A0C6CE652102C3CC005F1817 /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C6CE642102C3CC005F1817 /* ScoreTableViewController.swift */; };
+		AF0DE74E2102C0890099C294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0DE74D2102C0890099C294 /* AppDelegate.swift */; };
+		AF0DE7502102C0890099C294 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0DE74F2102C0890099C294 /* ClickerViewController.swift */; };
+		AF0DE7532102C0890099C294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0DE7512102C0890099C294 /* Main.storyboard */; };
+		AF0DE7552102C08C0099C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0DE7542102C08C0099C294 /* Assets.xcassets */; };
+		AF0DE7582102C08C0099C294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0DE7562102C08C0099C294 /* LaunchScreen.storyboard */; };
+		AF0DE7602102C3B80099C294 /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0DE75F2102C3B80099C294 /* ScoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0C6CE4F2102C152005F1817 /* Clicker Version 9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clicker Version 9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0C6CE522102C152005F1817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0C6CE542102C152005F1817 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
-		A0C6CE572102C152005F1817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0C6CE592102C154005F1817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0C6CE5C2102C154005F1817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A0C6CE5E2102C154005F1817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0C6CE642102C3CC005F1817 /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
+		AF0DE74A2102C0890099C294 /* Clicker Version 9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clicker Version 9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0DE74D2102C0890099C294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF0DE74F2102C0890099C294 /* ClickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
+		AF0DE7522102C0890099C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF0DE7542102C08C0099C294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0DE7572102C08C0099C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF0DE7592102C08C0099C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0DE75F2102C3B80099C294 /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A0C6CE4C2102C152005F1817 /* Frameworks */ = {
+		AF0DE7472102C0890099C294 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0C6CE462102C152005F1817 = {
+		AF0DE7412102C0890099C294 = {
 			isa = PBXGroup;
 			children = (
-				A0C6CE512102C152005F1817 /* Clicker Version 9 */,
-				A0C6CE502102C152005F1817 /* Products */,
+				AF0DE74C2102C0890099C294 /* Clicker Version 9 */,
+				AF0DE74B2102C0890099C294 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A0C6CE502102C152005F1817 /* Products */ = {
+		AF0DE74B2102C0890099C294 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0C6CE4F2102C152005F1817 /* Clicker Version 9.app */,
+				AF0DE74A2102C0890099C294 /* Clicker Version 9.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0C6CE512102C152005F1817 /* Clicker Version 9 */ = {
+		AF0DE74C2102C0890099C294 /* Clicker Version 9 */ = {
 			isa = PBXGroup;
 			children = (
-				A0C6CE522102C152005F1817 /* AppDelegate.swift */,
-				A0C6CE542102C152005F1817 /* ClickerViewController.swift */,
-				A0C6CE562102C152005F1817 /* Main.storyboard */,
-				A0C6CE642102C3CC005F1817 /* ScoreTableViewController.swift */,
-				A0C6CE592102C154005F1817 /* Assets.xcassets */,
-				A0C6CE5B2102C154005F1817 /* LaunchScreen.storyboard */,
-				A0C6CE5E2102C154005F1817 /* Info.plist */,
+				AF0DE74D2102C0890099C294 /* AppDelegate.swift */,
+				AF0DE74F2102C0890099C294 /* ClickerViewController.swift */,
+				AF0DE7512102C0890099C294 /* Main.storyboard */,
+				AF0DE75F2102C3B80099C294 /* ScoreTableViewController.swift */,
+				AF0DE7542102C08C0099C294 /* Assets.xcassets */,
+				AF0DE7562102C08C0099C294 /* LaunchScreen.storyboard */,
+				AF0DE7592102C08C0099C294 /* Info.plist */,
 			);
 			path = "Clicker Version 9";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0C6CE4E2102C152005F1817 /* Clicker Version 9 */ = {
+		AF0DE7492102C0890099C294 /* Clicker Version 9 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0C6CE612102C154005F1817 /* Build configuration list for PBXNativeTarget "Clicker Version 9" */;
+			buildConfigurationList = AF0DE75C2102C08C0099C294 /* Build configuration list for PBXNativeTarget "Clicker Version 9" */;
 			buildPhases = (
-				A0C6CE4B2102C152005F1817 /* Sources */,
-				A0C6CE4C2102C152005F1817 /* Frameworks */,
-				A0C6CE4D2102C152005F1817 /* Resources */,
+				AF0DE7462102C0890099C294 /* Sources */,
+				AF0DE7472102C0890099C294 /* Frameworks */,
+				AF0DE7482102C0890099C294 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "Clicker Version 9";
 			productName = "Clicker Version 9";
-			productReference = A0C6CE4F2102C152005F1817 /* Clicker Version 9.app */;
+			productReference = AF0DE74A2102C0890099C294 /* Clicker Version 9.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A0C6CE472102C152005F1817 /* Project object */ = {
+		AF0DE7422102C0890099C294 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Rui Yang Tan";
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Tinkercademy;
 				TargetAttributes = {
-					A0C6CE4E2102C152005F1817 = {
-						CreatedOnToolsVersion = 10.0;
+					AF0DE7492102C0890099C294 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = A0C6CE4A2102C152005F1817 /* Build configuration list for PBXProject "Clicker Version 9" */;
+			buildConfigurationList = AF0DE7452102C0890099C294 /* Build configuration list for PBXProject "Clicker Version 9" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A0C6CE462102C152005F1817;
-			productRefGroup = A0C6CE502102C152005F1817 /* Products */;
+			mainGroup = AF0DE7412102C0890099C294;
+			productRefGroup = AF0DE74B2102C0890099C294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0C6CE4E2102C152005F1817 /* Clicker Version 9 */,
+				AF0DE7492102C0890099C294 /* Clicker Version 9 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0C6CE4D2102C152005F1817 /* Resources */ = {
+		AF0DE7482102C0890099C294 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C6CE5D2102C154005F1817 /* LaunchScreen.storyboard in Resources */,
-				A0C6CE5A2102C154005F1817 /* Assets.xcassets in Resources */,
-				A0C6CE582102C152005F1817 /* Main.storyboard in Resources */,
+				AF0DE7582102C08C0099C294 /* LaunchScreen.storyboard in Resources */,
+				AF0DE7552102C08C0099C294 /* Assets.xcassets in Resources */,
+				AF0DE7532102C0890099C294 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A0C6CE4B2102C152005F1817 /* Sources */ = {
+		AF0DE7462102C0890099C294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0C6CE552102C152005F1817 /* ClickerViewController.swift in Sources */,
-				A0C6CE532102C152005F1817 /* AppDelegate.swift in Sources */,
-				A0C6CE652102C3CC005F1817 /* ScoreTableViewController.swift in Sources */,
+				AF0DE7502102C0890099C294 /* ClickerViewController.swift in Sources */,
+				AF0DE74E2102C0890099C294 /* AppDelegate.swift in Sources */,
+				AF0DE7602102C3B80099C294 /* ScoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A0C6CE562102C152005F1817 /* Main.storyboard */ = {
+		AF0DE7512102C0890099C294 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0C6CE572102C152005F1817 /* Base */,
+				AF0DE7522102C0890099C294 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A0C6CE5B2102C154005F1817 /* LaunchScreen.storyboard */ = {
+		AF0DE7562102C08C0099C294 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A0C6CE5C2102C154005F1817 /* Base */,
+				AF0DE7572102C08C0099C294 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A0C6CE5F2102C154005F1817 /* Debug */ = {
+		AF0DE75A2102C08C0099C294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,9 +217,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -227,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A0C6CE602102C154005F1817 /* Release */ = {
+		AF0DE75B2102C08C0099C294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,9 +271,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -282,38 +280,38 @@
 			};
 			name = Release;
 		};
-		A0C6CE622102C154005F1817 /* Debug */ = {
+		AF0DE75D2102C08C0099C294 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ML924Q8DT5;
+				DEVELOPMENT_TEAM = PQ6U5ESLN2;
 				INFOPLIST_FILE = "Clicker Version 9/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkerpal.Clicker-Version-9";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinkercademy.Clicker-Version-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A0C6CE632102C154005F1817 /* Release */ = {
+		AF0DE75E2102C08C0099C294 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ML924Q8DT5;
+				DEVELOPMENT_TEAM = PQ6U5ESLN2;
 				INFOPLIST_FILE = "Clicker Version 9/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkerpal.Clicker-Version-9";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinkercademy.Clicker-Version-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -321,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0C6CE4A2102C152005F1817 /* Build configuration list for PBXProject "Clicker Version 9" */ = {
+		AF0DE7452102C0890099C294 /* Build configuration list for PBXProject "Clicker Version 9" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0C6CE5F2102C154005F1817 /* Debug */,
-				A0C6CE602102C154005F1817 /* Release */,
+				AF0DE75A2102C08C0099C294 /* Debug */,
+				AF0DE75B2102C08C0099C294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0C6CE612102C154005F1817 /* Build configuration list for PBXNativeTarget "Clicker Version 9" */ = {
+		AF0DE75C2102C08C0099C294 /* Build configuration list for PBXNativeTarget "Clicker Version 9" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0C6CE622102C154005F1817 /* Debug */,
-				A0C6CE632102C154005F1817 /* Release */,
+				AF0DE75D2102C08C0099C294 /* Debug */,
+				AF0DE75E2102C08C0099C294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A0C6CE472102C152005F1817 /* Project object */;
+	rootObject = AF0DE7422102C0890099C294 /* Project object */;
 }

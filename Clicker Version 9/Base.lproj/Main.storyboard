@@ -1,64 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ppy-CS-ILf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ubx-Yn-feb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Scores-->
-        <scene sceneID="cmE-uy-nkv">
+        <scene sceneID="uYf-k2-lWf">
             <objects>
-                <tableViewController id="Ktl-Yu-Rqo" customClass="ScoreTableViewController" customModule="Clicker_Version_9" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DJ3-3C-cyG">
+                <tableViewController id="Tuo-3Q-FBY" customClass="ScoreTableViewController" customModule="Clicker_Version_9" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="15H-gM-Nkv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="scoreCell" id="P0S-vC-QaU">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="scoreCell" id="aDk-0f-Zsc">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P0S-vC-QaU" id="5D4-0Y-7Qv">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aDk-0f-Zsc" id="2bv-EJ-YRR">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="Ktl-Yu-Rqo" id="Xp0-IN-vQ7"/>
-                            <outlet property="delegate" destination="Ktl-Yu-Rqo" id="iL5-dV-VRB"/>
+                            <outlet property="dataSource" destination="Tuo-3Q-FBY" id="iuL-pa-M4B"/>
+                            <outlet property="delegate" destination="Tuo-3Q-FBY" id="w4b-Sa-ssa"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Scores" id="umV-Zq-5oK">
-                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="hNZ-Gc-YRT">
+                    <navigationItem key="navigationItem" title="Scores" id="E05-bo-fhy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="K00-m3-Kvv">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" id="2kc-ir-rHe"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" id="ct5-rG-buz"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K3G-gR-zon" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8N-lT-9na" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-665" y="116"/>
+            <point key="canvasLocation" x="-374" y="26"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="gZG-6n-AmN">
+        <scene sceneID="Ox6-G5-S8u">
             <objects>
-                <navigationController id="Ppy-CS-ILf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yny-H8-vyD">
+                <navigationController id="ubx-Yn-feb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bDl-zM-brq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Ktl-Yu-Rqo" kind="relationship" relationship="rootViewController" id="cfT-Ea-wlq"/>
+                        <segue destination="Tuo-3Q-FBY" kind="relationship" relationship="rootViewController" id="4mb-tl-OBL"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yed-Eq-pKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nCU-Bh-PQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1617" y="116"/>
+            <point key="canvasLocation" x="-1237" y="26"/>
         </scene>
         <!--Clicker View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -68,9 +69,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xzx-mY-iko">
-                                <rect key="frame" x="157.5" y="274.5" width="60.5" height="118.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="99"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydt-vE-ntC">
+                                <rect key="frame" x="148.5" y="267" width="78" height="153"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="128"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -78,26 +79,26 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="Xzx-mY-iko" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bSi-LJ-xLu"/>
-                            <constraint firstItem="Xzx-mY-iko" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="neC-Ex-FaX"/>
+                            <constraint firstItem="Ydt-vE-ntC" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LMV-Gg-lCT"/>
+                            <constraint firstItem="Ydt-vE-ntC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="P42-bk-Lob"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="d8e-Sy-SNq" appends="YES" id="NUm-DZ-IKG"/>
+                            <outletCollection property="gestureRecognizers" destination="n8f-wZ-wYU" appends="YES" id="PyJ-9S-AS5"/>
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="label" destination="Xzx-mY-iko" id="9Tr-xu-Bn6"/>
+                        <outlet property="label" destination="Ydt-vE-ntC" id="7wn-yx-lLn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="d8e-Sy-SNq">
+                <tapGestureRecognizer id="n8f-wZ-wYU">
                     <connections>
-                        <action selector="tapped:" destination="BYZ-38-t0r" id="ggn-SC-YHj"/>
+                        <action selector="tapped:" destination="BYZ-38-t0r" id="7jb-WP-oz1"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="247" y="125"/>
+            <point key="canvasLocation" x="527" y="26"/>
         </scene>
     </scenes>
 </document>
