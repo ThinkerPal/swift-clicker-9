@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Scores-->
         <scene sceneID="cmE-uy-nkv">
             <objects>
                 <tableViewController id="Ktl-Yu-Rqo" customClass="ScoreTableViewController" customModule="Clicker_Version_9" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="Ktl-Yu-Rqo" id="iL5-dV-VRB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="umV-Zq-5oK">
+                    <navigationItem key="navigationItem" title="Scores" id="umV-Zq-5oK">
                         <barButtonItem key="rightBarButtonItem" systemItem="play" id="hNZ-Gc-YRT">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" id="2kc-ir-rHe"/>
